@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, blue, green, red);
+}
+
+p {
+    font-size: 20px;
+    color: rgb(0, 229, 255);
+}
+
+h1 {
+    color: rgb(253, 0, 8);
+}
+
+h2 {
+    color: rgb(0, 255, 89);
+}
+
+a {
+    color: mediumblue;
+    text-decoration: none;
+    border-bottom: 1px dotted navy;
+}
+
+.container {
+    width: 870px;
+}
+
+.description {
+    float: left;
+    width: 400px;
+}
+
+.ad {
+    float: right;
+    width: 350px;
+    margin-top: 90px;
+    padding: 30px;
+    border: 2px dotted navy;
+}
+
+.reviews {
+    width: 870px;
+    float: left;
+    margin-left: 30px;
+}
+
+.review {
+    border-left: 10px double navy;
+    width: 350px;
+    padding-left: 10px;
+}
+
+span {
+    color: firebrick;
+    border-bottom: 1px dotted firebrick;
+}
+
+.review-text::before {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.a {
+    font-size: 30px;
+    color: red;
+}
+
